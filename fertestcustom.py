@@ -25,7 +25,7 @@ y=None
 labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
 
 #loading image
-full_size_image = cv2.imread("test.jpg")
+full_size_image = cv2.imread("enojado.png")
 print("Image Loaded")
 gray=cv2.cvtColor(full_size_image,cv2.COLOR_RGB2GRAY)
 face = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
